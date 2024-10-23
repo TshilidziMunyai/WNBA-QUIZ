@@ -14,8 +14,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 95%; /* You can adjust this value as needed */
-    max-width: 500px; /* Increase the max-width for a wider container */
+    width: 95%; 
+    max-width: 500px;
 }
 body {
     font-family: Arial, sans-serif;
@@ -29,12 +29,12 @@ body {
 
 .quiz-container {
     text-align: center;
-    background-color: rgb(104, 137, 220);
+    background-color: rgb(222, 129, 129);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 95%; /* Adjusted for responsiveness */
-    max-width: 500px; /* Increased max-width for a wider container */
+    box-shadow: 0 0 10px rgba(143, 122, 219, 0.1);
+    width: 95%; 
+    max-width: 500px; 
 }
 
 .result-container {
@@ -52,15 +52,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px; /* Reduced margin for closer alignment */
-}
+    margin-top: 20px; 
 
 .option {
     background-color: #e0e0e0;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    width: 150px; /* Fixed width for consistent option sizes */
+    width: 150px; 
     cursor: pointer;
     transition: transform 0.2s;
     display: flex;
@@ -69,50 +68,51 @@ body {
 }
 
 .option:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
 }
 
 .option img {
-    max-width: 100%; /* Ensures images fit within their parent */
+    max-width: 100%; 
     border-radius: 5px;
-    height: auto; /* Maintains aspect ratio */
+    height: auto; 
 }
 
 h1 {
-    color: #fff; /* Changed to white for better contrast */
+    color: #fff; 
 }
 
 h2 {
-    color: #fff; /* Added for result headings */
+    color: #fff; 
 }
 
 p {
-    color: #333; /* Default text color */
+    color: #333; 
 }
 
 a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #fff; /* Background for button */
-    color: rgb(104, 137, 220); /* Button text color */
+    background-color: #fff; 
+    color: rgb(104, 137, 220); 
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 a:hover {
-    background-color: rgba(255, 255, 255, 0.8); /* Slight hover effect */
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
 .result-container {
     text-align: center;
-    background-color: rgb(104, 137, 220);
+    background-color: rgb(0, 168, 50);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     width: 90%;
     max-width: 600px;
+
     margin: auto;
 }
 
@@ -147,5 +147,6 @@ a:hover {
 }
 
 h1 {
-    color: #333;
+    color: #fbf5f5;
+}
 }
