@@ -92,37 +92,40 @@ const quizData = [
 ];
 
 const playerResults = [
-    { name: "Kelsey Plum", image: "../images/plum.png" },
-    { name: "A'ja Wilson", image: "../images/aja.png" },
-    { name: "Breanna Stewart", image: "../images/breanna.png" },
-    { name: "Sabrina Ionescu", image: "../images/sabrina.png" },
-    { name: "Skylar Diggins-Smith", image: "../images/diggins.png" },
-    { name: "Candace Parker", image: "../images/parker.png" },
-    { name: "Elena Delle Donne", image: "../images/delledonne.png" },
-    { name: "Nneka Ogwumike", image: "../images/ogwumike.png" },
-    { name: "Jonquel Jones", image: "../images/jones.png" },
-    { name: "Rhyne Howard", image: "../images/rhoward.png" },
-    { name: "Alyssa Thomas", image: "../images/thomas.png" },
-    { name: "Arike Ogunbowale", image: "../images/ogunbowale.png" },
-    { name: "Jewell Loyd", image: "../images/loyd.png" },
-    { name: "Diana Taurasi", image: "../images/taurasi.png" },
-    { name: "Chelsea Gray", image: "../images/gray.png" },
-    { name: "Brittney Griner", image: "../images/griner.png" },
-    { name: "Kahleah Copper", image: "../images/copper.png" },
-    { name: "Satou Sabally", image: "../images/sabally.png" },
-    { name: "Jackie Young", image: "../images/young.png" },
-    { name: "Caitlin Clark (Rookie)", image: "../images/clark.png" },
-    { name: "Angel Reese (Rookie)", image: "../images/reese.png" },
-    { name: "Paige Bueckers (Rookie)", image: "../images/bueckers.png" },
-    { name: "Hailey Van Lith (Rookie)", image: "../images/vanlith.png" },
-    { name: "Aliyah Boston", image: "../images/boston.png" },
-    { name: "Diamond Miller", image: "../images/miller.png" },
-    { name: "Azzi Fudd (Rookie)", image: "../images/fudd.png" },
-    { name: "Zia Cooke", image: "../images/cooke.png" },
-    { name: "Grace Berger", image: "../images/berger.png" },
-    { name: "Jordan Horston", image: "../images/horston.png" },
-    { name: "Shakira Austin", image: "../images/austin.png" }
+    { name: "Kelsey Plum", image: "../images/plum.png" }, 
+    { name: "A'ja Wilson", image: "../images/aja.png" }, 
+    { name: "Chelsea Gray", image: "../images/gray.png" }, 
+    { name: "Jackie Young", image: "../images/young.png" }, 
+
+    { name: "Breanna Stewart", image: "../images/breanna.png" }, 
+    { name: "Sabrina Ionescu", image: "../images/sabrina.png" }, 
+    { name: "Jonquel Jones", image: "../images/jones.png" }, 
+    { name: "Courtney Vandersloot", image: "../images/sloot.png" }, 
+
+    { name: "Jewell Loyd", image: "../images/loyd.png" }, 
+    { name: "Ezi Magbegor", image: "../images/mag.png" }, 
+
+    { name: "Candace Parker", image: "../images/parker.png" }, 
+    { name: "Kahleah Copper", image: "../images/copper.png" }, 
+    { name: "Courtney Williams", image: "../images/williams.png" }, 
+
+    { name: "Napheesa Collier", image: "../images/collier.png" }, 
+    { name: "Diamond Miller", image: "../images/miller.png" }, 
+    { name: "kayla mcbride", image: "../images/kayla.png" },  
+  
+    
+    { name: "Skylar Diggins-Smith", image: "../images/diggins.png" }, 
+    { name: "Elena Delle Donne", image: "../images/delledonne.png" }, 
+    { name: "Nneka Ogwumike", image: "../images/ogwumike.png" }, 
+    { name: "Rhyne Howard", image: "../images/rhoward.png" }, 
+    { name: "Alyssa Thomas", image: "../images/thomas.png" }, 
+    { name: "Arike Ogunbowale", image: "../images/ogunbowale.png" }, 
+    { name: "Brittney Griner", image: "../images/griner.png" }, 
+    { name: "Shakira Austin", image: "../images/austin.png" }, 
+    { name: "Aliyah Boston", image: "../images/boston.png" }, 
+    { name: "Diana Taurasi", image: "../images/taurasi.png" }, 
 ];
+
 
 let currentQuestion = 0;
 let userAnswers = [];
