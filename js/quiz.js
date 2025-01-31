@@ -92,39 +92,48 @@ const quizData = [
 ];
 
 const playerResults = [
-    { name: "Kelsey Plum", image: "../images/plum.png" }, 
-    { name: "A'ja Wilson", image: "../images/aja.png" }, 
-    { name: "Chelsea Gray", image: "../images/gray.png" }, 
-    { name: "Jackie Young", image: "../images/young.png" }, 
-
-    { name: "Breanna Stewart", image: "../images/breanna.png" }, 
-    { name: "Sabrina Ionescu", image: "../images/sabrina.png" }, 
-    { name: "Jonquel Jones", image: "../images/jones.png" }, 
-    { name: "Courtney Vandersloot", image: "../images/sloot.png" }, 
-
-    { name: "Jewell Loyd", image: "../images/loyd.png" }, 
-    { name: "Ezi Magbegor", image: "../images/mag.png" }, 
-
-    { name: "Candace Parker", image: "../images/parker.png" }, 
-    { name: "Kahleah Copper", image: "../images/copper.png" }, 
-    { name: "Courtney Williams", image: "../images/williams.png" }, 
-
-    { name: "Napheesa Collier", image: "../images/collier.png" }, 
-    { name: "Diamond Miller", image: "../images/miller.png" }, 
-    { name: "kayla mcbride", image: "../images/kayla.png" },  
-  
+    { name: "Jackie Young", image: "../PlayerImages/young.png" },
+    { name: "Tiffany Hayes", image: "../PlayerImages/hayes.png" },
+    { name: "Kayla McBride", image: "../PlayerImages/kmac.png" },
+    { name: "Kate Martin", image: "../PlayerImages/kate.png" },
+    { name: "Alyssa Thomas", image: "../PlayerImages/AT.png" },
+    { name: "Stefanie Dolson", image: "../PlayerImages/dolson.png" },
     
-    { name: "Skylar Diggins-Smith", image: "../images/diggins.png" }, 
-    { name: "Elena Delle Donne", image: "../images/delledonne.png" }, 
-    { name: "Nneka Ogwumike", image: "../images/ogwumike.png" }, 
-    { name: "Rhyne Howard", image: "../images/rhoward.png" }, 
-    { name: "Alyssa Thomas", image: "../images/thomas.png" }, 
-    { name: "Arike Ogunbowale", image: "../images/ogunbowale.png" }, 
-    { name: "Brittney Griner", image: "../images/griner.png" }, 
-    { name: "Shakira Austin", image: "../images/austin.png" }, 
-    { name: "Aliyah Boston", image: "../images/boston.png" }, 
-    { name: "Diana Taurasi", image: "../images/taurasi.png" }, 
-];
+    { name: "Skylar Diggins-Smith", image: "../PlayerImages/SDS.png" },
+    { name: "Courtney Williams", image: "../PlayerImages/williams.png" },
+    { name: "Allisha Gray", image: "../PlayerImages/Agray.png" },
+    { name: "Cameron Brink", image: "../PlayerImages/brink.png" },
+    { name: "Napheesa Collier", image: "../PlayerImages/phee.png" },
+    { name: "Shakira Austin", image: "../PlayerImages/shakira.png" },
+    
+    { name: "Jewell Loyd", image: "../PlayerImages/loyd.png" },
+    { name: "Courtney Vandersloot", image: "../PlayerImages/sloot.png" },
+    { name: "DiJonai Carrington", image: "../PlayerImages/nai.png" },
+    { name: "Rickea Jackson", image: "../PlayerImages/rickea.png" },
+    { name: "Breanna Stewart", image: "../PlayerImages/stewie.png" },
+    { name: "Aaliyah Edwards", image: "../PlayerImages/edwards.png" },
+    
+    { name: "Sabrina Ionescu", image: "../PlayerImages/sabrina.png" },
+    { name: "Natasha Cloud", image: "../PlayerImages/cloud.png" },
+    { name: "Marina Mabrey", image: "../PlayerImages/marina.png" },
+    { name: "Katie Lou Samuelson", image: "../PlayerImages/samuelson.png" },
+    { name: "Satou Sabally", image: "../PlayerImages/satou.png" },
+    { name: "Brittney Griner", image: "../PlayerImages/BG.png" },
+    
+    { name: "Chelsea Gray", image: "../PlayerImages/gray.png" },
+    { name: "Brittney Sykes", image: "../PlayerImages/sykes.png" },
+    { name: "Kahleah Copper", image: "../PlayerImages/kah.png" },
+    { name: "Lexie Hull", image: "../PlayerImages/hull.png" },
+    { name: "Angel Reese", image: "../PlayerImages/barbie.png" },
+    { name: "Azurá Stevens", image: "../PlayerImages/azura.png" },
+    
+    { name: "Arike Ogunbowale", image: "../PlayerImages/arike.png" },
+    { name: "Jordin Canada", image: "../PlayerImages/canada.png" },
+    { name: "Rhyne Howard", image: "../PlayerImages/rhyne.png" },
+    { name: "Rae Burrell", image: "../PlayerImages/rae.png" },
+    { name: "Aliyah Boston", image: "../PlayerImages/boston.png" },
+    { name: "Dearica Hamby", image: "../PlayerImages/hamby.png" }
+    ];
 
 
 let currentQuestion = 0;
